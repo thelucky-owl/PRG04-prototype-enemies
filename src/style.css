@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(27, 25, 45);
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height:100vh;
+    overflow: hidden;
+}
+
+canvas {
+    /* uncomment this to scale to 100% of the window */
+    /* width:100vw; */
+}

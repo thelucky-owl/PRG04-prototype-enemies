@@ -38906,7 +38906,7 @@ class Enemy extends _pixiJs.AnimatedSprite {
         this.checkCollision();
         //move enemy to left side of screen when they go off the right
         if (this.x > 850) this.x = -150;
-        //set x to +1, timer goes, set x-1 repeat, if active stop and follow player
+        //set x to +1, timer goes, set x-1 repeat, if active stop and follow player, movement before following player
         const direction = playerPosition.subtract(this.position).normalize();
         //calculate the distance from the player
         const xDifference = this.position.x - playerPosition.x;
